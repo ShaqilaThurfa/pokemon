@@ -31,6 +31,7 @@ export default async function Page({params}: Props ) {
         <h2 className="card-title">{pokemon.name}</h2>
         <p>{pokemon.description}</p>
         <div className="badge badge-outline">{pokemon.type}</div>
+        <div className="badge badge-outline">{pokemon.weight}</div>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Watch</button>
         </div>
