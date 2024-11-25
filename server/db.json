@@ -23,6 +23,20 @@
       "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
       "weight": "199.5 lbs",
       "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
+    },
+    {
+      "name": "pokemon lucu",
+      "description": "lucu gemes gendut",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.jWbZapiT7hh2PZE3Z9uGnwHaHa&pid=Api&P=0&h=180",
+      "type": "barbasaur",
+      "id": 4
+    },
+    {
+      "name": "pokemon lucu",
+      "description": "lucu gemes gendut",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.jWbZapiT7hh2PZE3Z9uGnwHaHa&pid=Api&P=0&h=180",
+      "type": "barbasaur",
+      "id": 5
     }
   ]
 }
