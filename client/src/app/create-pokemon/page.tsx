@@ -11,6 +11,7 @@ export default function Page() {
   const [description, setDescription] = useState("")
   const [image, setImage] = useState("")
   const [type, setType] = useState("")
+  const [weight, setWeight] = useState("")
 
   const handleOnsubmit = async(e) => {
    try {
@@ -35,7 +36,8 @@ export default function Page() {
         {name,
         description,
         image,
-        type,}
+        type,
+        weight}
       ),
       headers: {
         "Content-Type": "application/json",
@@ -63,6 +65,9 @@ export default function Page() {
       </label>
       <label className="input input-bordered flex items-center gap-2">
         <input type="text" className="grow" placeholder="Image" value={image} onChange={(e)=> setImage(e.target.value)} />
+      </label>
+      <label className="input input-bordered flex items-center gap-2">
+        <input type="text" className="grow" placeholder="weight" value={weight} onChange={(e)=> setWeight(e.target.value)} />
       </label>
       <label className="input input-bordered flex items-center gap-2">
         <input type="text" className="grow" placeholder="type" value={type} onChange={(e)=> setType(e.target.value)}  />

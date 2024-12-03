@@ -38,10 +38,12 @@ export default function PokemonCard({ pokemons }: Props) {
                   src={pokemon.image}
                   alt={pokemon.name}/>
               </figure>
-              <div className="card-body">
+              <div className="card-body flex">
                 <h2 className="card-title">{pokemon.name}</h2>
                 <div className="badge badge-outline">{pokemon.type}</div>
-
+                <div>
+                <p>{pokemon.description}</p>
+                </div>
                 <div className="card-actions justify-end flex-1">
                   {/* <button className="btn btn-primary" onClick={handleOnDelete(pokemon.id)}>Delete</button> */}
                   {/* <button className="btn btn-primary" onClick=`/pokemon`>Detail</button> */}

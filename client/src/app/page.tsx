@@ -14,7 +14,9 @@ export default async function Home() {
 
   const url = "http://localhost:3002/pokemon";
   
-    const response = await fetch(url);
+    const response = await fetch(url, {
+      cache: "no-store"
+    });
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);
     }

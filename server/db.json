@@ -37,6 +37,14 @@
       "image": "https://tse3.mm.bing.net/th?id=OIP.jWbZapiT7hh2PZE3Z9uGnwHaHa&pid=Api&P=0&h=180",
       "type": "barbasaur",
       "id": 5
+    },
+    {
+      "name": "Charmeleon",
+      "description": "When it swings its burning tail, the temperature around it rises higher and higher, tormenting its opponents. ",
+      "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/005.png",
+      "type": "water",
+      "weight": "41.9",
+      "id": 6
     }
   ]
 }

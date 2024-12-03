@@ -9,7 +9,9 @@ export default async function Page({ params }: Props) {
 
   const url = "http://localhost:3002/pokemon?type=" + params.type;
 
-  const response = await fetch(url);
+  const response = await fetch(url, {
+    cache: "no-store"
+  });
   if (!response.ok) {
     throw new Error(`Response status: ${response.status}`);
   }
@@ -17,7 +19,7 @@ export default async function Page({ params }: Props) {
   const pokemon: Pokemon[] = await response.json();
   // console.log(pokemon);
   return (
-    <div className="card card-side bg-base-100 shadow-xl">
+    <div className=" flex card card-side bg-base-100 shadow-xl">
 
       {pokemon.map((pokemon) => {
         
